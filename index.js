@@ -2,4 +2,8 @@ function greet(name) {
   return "Hello " + name;
 }
 
-module.exports = { greet };
+function farewell(name) {
+  return "Selamat tinggal " + name;
+}
+
+module.exports = { greet, farewell };
